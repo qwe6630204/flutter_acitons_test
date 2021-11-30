@@ -1,4 +1,4 @@
-name: Build_Newifi_D2
+name: flutter_build
 
 on: 
   release:
