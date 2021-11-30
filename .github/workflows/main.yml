@@ -27,7 +27,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: 打印
         run: echo  hello > path/to/artifat/world.txt
-      - uses: actions/upload-artfact@v2
+      - uses: actions/upload-artifact@v2
         with:
           name: myartifat
           path: path/to/artifat/world.txt
